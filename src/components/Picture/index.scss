@@ -1,0 +1,15 @@
+.logo-container {
+    right: 20%;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    transform: translateY(25%);
+
+    .solid-logo {
+        border-radius: 50%;
+        border: solid #ffd700 2px;
+    }
+}
