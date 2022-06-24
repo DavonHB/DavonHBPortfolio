@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family:300 10px/1.5 'Helvetica Neue', 'sans-serif';
+  font: 300 10px/1.5 'Helvetica Neue', sans-serif;
   color: #444;
   background: #022c43;
   overflow: hidden;
