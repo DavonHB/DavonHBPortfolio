@@ -9,4 +9,4 @@ const Picture = () => {
     )
 }
 
-export default Picture
+export default Picture;
