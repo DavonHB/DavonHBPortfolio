@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import Picture from '../Picture';
+import Loader from 'react-loaders'
 import './index.scss'
 
 const Home = () => {
@@ -9,13 +10,14 @@ const Home = () => {
     const nameArray = ['D', 'a', 'v', 'o', 'n']
     const jobArray = ['S', 't', 'u', 'd', 'e', 'n', 't', '.']
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //       setLetterClass('text-animate-hover')
-    //     }, 4000)
-    //   }, [])
+    useEffect(() => {
+        setTimeout(() => {
+          setLetterClass('text-animate-hover')
+        }, 4000)
+      }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -42,6 +44,8 @@ const Home = () => {
             </div>
             <Picture />
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 

@@ -4,7 +4,7 @@ import picture from '../../assets/images/pictureSelf.png'
 const Picture = () => {
     return (
         <div className='logo-container'>
-            <img className='solid-logo' src={picture} alt="picture"/>
+            <img className='solid-logo' src={picture} alt="self"/>
         </div>
     )
 }
