@@ -43,6 +43,7 @@ const About = () => {
                     <p>Myself defined in one sentence: Avid seeker of problems and solutions,
                         writer and gym rat.
                     </p>
+                    <a href="https://docs.google.com/document/d/1k41RltyyInRYS0Vqfk86JtxzbNEkGtpacamiXg75Dyk/edit?usp=sharing" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
                 </div>
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
