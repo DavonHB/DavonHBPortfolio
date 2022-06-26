@@ -40,12 +40,12 @@
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.portfolio-page {
     .text-zone {
         position: absolute;
         left: 20%;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 10%;
         width: 35%;
         vertical-align: middle;
         display: table-cell;
