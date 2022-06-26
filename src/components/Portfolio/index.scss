@@ -84,13 +84,19 @@
 }
 
 .deploy {
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
     letter-spacing: 1px;
     font-family: 'Coolvetica', sans-serif;
-    .link {
-        margin-left: 10px;
+    .card-link {
+        margin: 8px;
         text-decoration: none;
         color: #ffd700;
+
+        &:hover {
+            color: rgba(240, 234, 71, 0.595);
+        }
     }
 }
 
