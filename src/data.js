@@ -24,7 +24,7 @@ export const data = [
         title: "NetPets",
         description: "NetPet's is a MERN app that allows you to take care of your virtual (Net) Pet.",
         image: "url('../../assets/images/netpets.png')",
-        appLink: "",
+        appLink: "https://netpetsheroku.herokuapp.com/",
         gitLink: "https://github.com/GartTheSkeleton/NetPets",
     },
     {
