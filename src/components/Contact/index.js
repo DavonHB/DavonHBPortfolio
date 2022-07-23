@@ -2,7 +2,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useState, useEffect, useRef } from 'react'
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -16,11 +16,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
-        emailjs.sendForm(
-            'service_2l8xt2h', 
-            refForm.current,
-            'template_uqw4ceo',
-            'lECmM3kgUq2BDcFsw')
+        emailjs.sendForm('service_2l8xt2h', 'template_42fnqqn', refForm.current, 'lECmM3kgUq2BDcFsw')
             .then(
                 () => {
                     alert('Message sent successfully')
@@ -51,10 +47,10 @@ const Contact = () => {
                     <form ref={refForm} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
-                                <input type="text" name="name" placeholder='Name' required />
+                                <input type="text" name="user_name" placeholder='Name' required />
                             </li>
                             <li className='half'>
-                                <input type="email" name="email" placeholder='Email' required />
+                                <input type="email" name="user_email" placeholder='Email' required />
                             </li>
                             <li>
                                 <input placeholder="Subject" type="text" name="subject" required />
@@ -63,7 +59,7 @@ const Contact = () => {
                                 <textarea placeholder="Message" name="message" required></textarea>
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' value="SEND" />
+                                <input type="submit" value="SEND" className='flat-button' />
                             </li>
                         </ul>
                     </form>

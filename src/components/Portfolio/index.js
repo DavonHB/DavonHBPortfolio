@@ -12,26 +12,31 @@ const Portfolio = () => {
             <div className='card-container'>
                 {data.map((project, i) => {
                     return (
-                        <div className="card" key={i}>
-                            <div className="overlay" >
-                                <div className = "spacing head">
-                                    <p>{project.title}</p>
-                                    <br></br>
+                            <div class="card">
+                                <div className='title-container'>
+                                        <h3 className="title">{project.title}</h3>
+                                        <div className='circle'>
+                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <circle className="stroke" cx="180" cy="30" r="20"/>
+                                            </svg>
+                                        </div>
                                 </div>
-                                <div className = "spacing description-container">
-                                    <p className="description">{project.description}</p>
-                                </div>
-                                <div className="spacing deploy">
-                                    <a href={project.appLink} target="_blank" rel="noreferrer" className="card-link">Deployed App Link</a>
-                                    <a href={project.gitLink} target="_blank" rel="noreferrer" className="card-link">GitHub Repo Link</a>
+                                <div className='overlay'>
+                                    <div className="description-container">
+                                        <p className="description">{project.description}</p>
+                                    </div>
+
+                                    <div className="deploy">
+                                        <a href={project.appLink} target="_blank" rel="noreferrer" className="card-link">DEMO</a>
+                                        <a href={project.gitLink} target="_blank" rel="noreferrer" className="card-link">CODE</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    )
-                })}
-            </div>
-        </div>
-    )
+                            )
+                        })}
+                    </div>
+                </div>
+            )
 }
 
 export default Portfolio;
