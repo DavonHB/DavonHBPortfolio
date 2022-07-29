@@ -40,8 +40,7 @@ const About = () => {
                         to broaden my scope, and consistently working on improving my
                         skills one problem at a time.
                     </p>
-                    <p>Myself defined in one sentence: Avid seeker of problems and solutions,
-                        writer and gym rat.
+                    <p>If I had to define myself in one sentence it would be: I like to be constantly learning and solving problems. 
                     </p>
                     <a href="https://davonhbresume.herokuapp.com/" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
                 </div>
