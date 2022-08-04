@@ -33,5 +33,17 @@ export const data = [
         image: "./assets/images/budgettracker.png",
         appLink: "https://davonhb.github.io/Budget-Tracker/",
         gitLink: "https://github.com/DavonHB/Budget-Tracker",
+    },
+    {
+        title: "JavaScript Calculator",
+        description: "This app is a simple javascript calculator that is entirely functional and runs on less than 100 lines of code.",
+        appLink: "https://davonhb.github.io/Calculator-JS/",
+        gitLink: "https://github.com/DavonHB/Calculator-JS",
+    },
+    {
+        title: "React Calculator",
+        description: "This app is a pragmatic usage of React hooks and state to manage a calculator without importing any libraries or calculator functions",
+        appLink: "https://davonhbreactcalc.herokuapp.com/",
+        gitLink: "https://github.com/DavonHB/Calculator-React",
     }
 ]
