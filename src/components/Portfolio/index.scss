@@ -116,6 +116,45 @@
 
 body {
     // overflow-y: scroll;
+    overflow: auto;
+}
+
+.portfolio-h1 {
+    color: #ffd700;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+    &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        color: #ffd700;
+        font-size: 25px;
+        position: relative;
+        margin-top: -30px;
+        margin-right: 25px;
+        opacity: 0.6;
+        overflow: hidden;
+    }
+
+    &::after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore';
+        color: #ffd900dc;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 25px;
+        opacity: 0.6;
+        animation: fadeIn 1s 1.7s backwards;
+        overflow: hidden;
+    }
 }
 
 .spacing {
@@ -125,11 +164,12 @@ body {
     margin-left: calc(120px);
     margin-right: calc(5px);
     padding: 5px;
+    opacity: 1;
 }
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
     align-items: flex-start;
 
@@ -155,6 +195,7 @@ body {
                 max-height: 200px;
                 object-position: center;
                 transition: 200ms transform ease-in-out;
+                z-index: 1;
 
                 &:hover {
                     transform: scale(1.1)
