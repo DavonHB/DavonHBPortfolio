@@ -124,12 +124,15 @@ body {
     text-align: center;
     font-size: 55px;
     font-family: 'Coolvetica';
-    color: #ffd700;
     font-weight: 400;
     margin-top: 15px;
     position: relative;
     margin-bottom: 40px;
     overflow: hidden;
+    opacity: 0;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 
     &::before {
         content: '<h1>';
@@ -164,7 +167,11 @@ body {
     margin-left: calc(120px);
     margin-right: calc(5px);
     padding: 5px;
-    opacity: 1;
+    opacity: 0;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    
 }
 
 .card-grid {
@@ -172,6 +179,9 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
     align-items: flex-start;
+    margin-bottom: 1.5rem; 
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     .card {
         background:#181818;
@@ -181,7 +191,7 @@ body {
         overflow: hidden;
         padding: 0;
         border: none;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+        box-shadow: 0 2px 5px 0 #ffd9008b;
 
         .card-header {
             padding: 0;
@@ -205,6 +215,19 @@ body {
 
         .card-body {
             padding: 0 1rem;
+
+            h2 {
+                color: #ffd700;
+                font-family: 'Coolvetica';
+            }
+
+            p {
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.7);
+                font-family: 'Coolvetica';
+                font-weight: 200;
+                letter-spacing: .1em;
+            }
         }
 
         .card-footer {
@@ -221,18 +244,21 @@ body {
                 background: #ffd700;
                 color: #181818;
                 border: none;
-                font-size: 1.25rem;
+                font-size: 1.5rem;
                 padding: .5em, .75em;
                 border-radius: .25em;
                 cursor: pointer;
+                margin: 8px;
+                text-decoration: none;
+                font-family: 'Coolvetica';
 
                 &:hover {
                     background: #ffd900a1;
                 }
             }
 
-            .btn + .btn {
-                margin-left: 2rem
+            a + a {
+                margin-left: 2.5rem
             }
         }
     }
