@@ -42,7 +42,11 @@ const About = () => {
                     </p>
                     <p>If I had to define myself in one sentence it would be: I like to be constantly learning and solving problems. 
                     </p>
-                    <a href="https://davonhbresume.herokuapp.com/" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
+                    <a href="./Davon_Brown_Resume.pdf" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
+
+                    <div class="image-container">
+                        <img src="./images/vanderbilt_coding_certificate.jpg" alt="certificate"></img>
+                    </div>
                 </div>
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
