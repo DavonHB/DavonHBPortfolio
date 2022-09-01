@@ -80,3 +80,21 @@ body {
         }
     }
 }
+
+@media all and (max-width: 500px) {
+    .contact-page {
+        h1 {
+            font-size: 25px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+        
+        .text-zone {
+            position: absolute;
+            top: 0;
+            margin-left: 10%;
+        }
+    }
+}

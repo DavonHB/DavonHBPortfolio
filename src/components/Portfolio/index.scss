@@ -263,3 +263,27 @@ body {
         }
     }
 }
+
+@media all and (max-width: 500px) {
+
+    .portfolio-h1 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        left: 15%;
+        margin-bottom: 10px;
+
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
