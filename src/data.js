@@ -54,5 +54,12 @@ export const data = [
         image: './images/markdown.png',
         appLink: 'https://github.com/DavonHB/READMEGenerator',
         gitLink: 'https://github.com/DavonHB/READMEGenerator',
+    },
+    {
+        title: "Personal Markdown Blog",
+        description: "Complete blog with markdown support, built using monogDB and mongoose as the JavaScript shell, Node.js, and vanilla JS. This app is not deployed, so the DEMO button will redirect to the GitHub repo.",
+        image: './images/mdblog.png',
+        appLink: 'https://github.com/DavonHB/Personal-Markdown-Blog',
+        gitLink: 'https://github.com/DavonHB/Personal-Markdown-Blog'
     }
 ]
