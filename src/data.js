@@ -61,5 +61,19 @@ export const data = [
         image: './images/mdblog.png',
         appLink: 'https://github.com/DavonHB/Personal-Markdown-Blog',
         gitLink: 'https://github.com/DavonHB/Personal-Markdown-Blog'
+    },
+    {
+        title: "TypeScript HangMan",
+        description: "Functional hangman game deployed to Heroku. Made with TypeScript, React, and Vite.",
+        image: './images/hangman.jpg',
+        appLink: 'https://davonhbhangmantypescript.herokuapp.com/',
+        gitLink: 'https://github.com/DavonHB/hangman-typescript'
+    },
+    {
+        title: "TypeScript MultiStep Form",
+        description: "Functional multi step form with authentication and user registration built with React, TypeScript, and Vite",
+        image: './images/details.png',
+        appLink: 'https://davonhbtypescriptform.herokuapp.com/',
+        gitLink: 'https://github.com/DavonHB/React-TypeScript-Form'
     }
 ]
