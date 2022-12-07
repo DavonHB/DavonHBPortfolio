@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons';
