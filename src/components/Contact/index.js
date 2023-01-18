@@ -1,3 +1,4 @@
+import React from 'react';
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'

@@ -1,12 +1,14 @@
 .stage-cube-cont {
-    width: 30%;
-    height: 100%;
-    top: 0;
-    padding-top: 18%;
-    margin-left: 0;
     position: absolute;
-    right: 0;
-    overflow: hidden;
+    margin-left: 175%;
+    margin-top: 2rem;
+}
+
+.image-container {
+
+    img {
+        width: 35rem;
+    }
 }
 
 .cubespinner {
@@ -77,4 +79,11 @@
     83% {
         transform: rotateX(90deg);
     }
+}
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
 }

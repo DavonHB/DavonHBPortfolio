@@ -1,4 +1,5 @@
-import {Routes, Route} from 'react-router-dom';
+import React from 'react'
+import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 import Layout from './components/Layout';
 import Home from './components/Home';
@@ -14,8 +15,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/portfolio' element={<Portfolio />} />
         </Route>
+        <Route path='/portfolio' element={<Portfolio />} />
       </Routes>
     </>
   )

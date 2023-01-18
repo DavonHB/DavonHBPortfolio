@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
@@ -42,27 +43,34 @@ const About = () => {
                     </p>
                     <p>If I had to define myself in one sentence it would be: I like to be constantly learning and solving problems. 
                     </p>
-                    <a href="https://davonhbresume.herokuapp.com/" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
-                </div>
-                <div className='stage-cube-cont'>
-                    <div className='cubespinner'>
-                        <div className='face1'>
-                            <FontAwesomeIcon icon={faGithub} color='#333'/>
+                    <a href="./DavonResume.pdf" target="_blank" rel="noreferrer" className="link">Click Here to Access my Resume</a>
+
+                    <div className="container-about">
+                        <div className="image-container">
+                            <img src="./images/vanderbilt_coding_certificate.jpg" alt="certificate"></img>
                         </div>
-                        <div className='face2'>
-                            <FontAwesomeIcon icon={faHtml5} color='#F06529'/>
-                        </div>
-                        <div className='face3'>
-                            <FontAwesomeIcon icon={faCss3} color='#28A4D9'/>
-                        </div>
-                        <div className='face4'>
-                            <FontAwesomeIcon icon={faReact} color='#5ED4F4'/>
-                        </div>
-                        <div className='face5'>
-                            <FontAwesomeIcon icon={faJsSquare} color='#EFD81D'/>
-                        </div>
-                        <div className='face6'>
-                            <FontAwesomeIcon icon={faGitAlt} color='#EC4D28'/>
+
+                        <div className='stage-cube-cont'>
+                            <div className='cubespinner'>
+                                <div className='face1'>
+                                    <FontAwesomeIcon icon={faGithub} color='#333'/>
+                                </div>
+                                <div className='face2'>
+                                    <FontAwesomeIcon icon={faHtml5} color='#F06529'/>
+                                </div>
+                                <div className='face3'>
+                                    <FontAwesomeIcon icon={faCss3} color='#28A4D9'/>
+                                </div>
+                                <div className='face4'>
+                                    <FontAwesomeIcon icon={faReact} color='#5ED4F4'/>
+                                </div>
+                                <div className='face5'>
+                                    <FontAwesomeIcon icon={faJsSquare} color='#EFD81D'/>
+                                </div>
+                                <div className='face6'>
+                                    <FontAwesomeIcon icon={faGitAlt} color='#EC4D28'/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
