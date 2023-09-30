@@ -47,7 +47,6 @@ const Portfolio = () => {
                                 </div>
                                 <div className="card-footer">
                                     <a href={project.gitLink} rel="noreferrer" target='_blank'><button className='btn'>Code</button></a>
-                                    <a href={project.appLink} rel="noreferrer" target='_blank'><button className='btn btn-secondary'>Demo</button></a>
                                 </div>
                             </div>
                         )
